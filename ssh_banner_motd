@@ -1,6 +1,6 @@
                           HOW TO CREATE A SSH BANNER
 
-This banner appears only when a user tries to establish
+This banner will only appear when a user tries to establish
 a connection to the server
 
 ################################################################################
@@ -25,9 +25,24 @@ a connection to the server
 
 5. Login your server
 
-Note: The banner should appear once the user re-login into the server
+Note: The banner should appear once the user has re-login into the server.
 
-# How to create a MOTD (MESSAGE OF THE DAY) banner
-#
+                HOW TO CREATE A MOTD (MESSAGE OF THE DAY) BANNER
 
-1. vi /etc/motd <---- location of motd banner config
+This banner will only appear when a user has successfully login into
+the server
+
+1. vi /etc/motd  <-- location of motd banner config
+    - Place contents in this file
+    - Save
+
+2. Logout the server
+
+3. Login your server
+
+Note: The banner should appear once the user has re-login into the server.
+
+
+Thank you!!
+
+- RAYA ALI
