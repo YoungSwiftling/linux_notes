@@ -32,6 +32,8 @@ Note: The banner should appear once the user has re-login into the server.
 This banner will only appear when a user has successfully login into
 the server
 
+################################################################################
+
 1. vi /etc/motd  <-- location of motd banner config
     - Place contents in this file
     - Save
