@@ -1,3 +1,4 @@
+################################################################################
                           HOW TO CREATE A SSH BANNER
 
 This banner will only appear when a user tries to establish
@@ -26,6 +27,8 @@ a connection to the server
 5. Login your server
 
 Note: The banner should appear once the user has re-login into the server.
+
+################################################################################
 
                 HOW TO CREATE A MOTD (MESSAGE OF THE DAY) BANNER
 
