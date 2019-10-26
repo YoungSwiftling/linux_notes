@@ -1,1 +1,33 @@
-# How to create a ssh banner
+                          HOW TO CREATE A SSH BANNER
+
+This banner appears only when a user tries to establish
+a connection to the server
+
+################################################################################
+
+1. Edit the banner config file
+    - vi /etc/issue.net  <-- location of ssh banner config
+    - Place contents in this file
+    - Save
+
+2. Edit sshd_config file
+    - vi /etc/ssh/sshd_config
+    - Remove the # from Banner located in the sshd_config
+          - Old: #Banner <location of ssh banner config>
+          - New: Banner <location of ssh banner config>
+    - Save
+
+3. Restart ssh service
+    - service sshd restart
+
+4. Logout your server
+    - Ctrl + d or type exit
+
+5. Login your server
+
+Note: The banner should appear once the user re-login into the server
+
+# How to create a MOTD (MESSAGE OF THE DAY) banner
+#
+
+1. vi /etc/motd <---- location of motd banner config
